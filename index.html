@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estudi sobre Memòria</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="words.js"></script>
+    <script defer src="config.js"></script>
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Bienvenida -->
+
+    <section id="welcome" class="screen active">
+
+        <h1>Estudi sobre memòria i hàbits de vida</h1>
+
+        <p>
+
+            Aquest estudi forma part d'un Treball de Recerca de Batxillerat.
+
+            L'objectiu és analitzar diferents factors que poden influir en el rendiment de la memòria.
+
+            Les dades són totalment anònimes i només s'utilitzaran amb finalitats acadèmiques.
+
+        </p>
+
+        <label class="check">
+
+            <input type="checkbox" id="consent">
+
+            Accepto participar voluntàriament.
+
+        </label>
+
+        <button id="startBtn">
+
+            Començar
+
+        </button>
+
+    </section>
+
+
+
+    <!-- Instrucciones -->
+
+    <section id="instructions" class="screen">
+
+        <h2>Instruccions</h2>
+
+        <ul>
+
+            <li>Realitza la prova en un lloc tranquil.</li>
+
+            <li>No facis captures de pantalla.</li>
+
+            <li>No anotis les paraules.</li>
+
+            <li>No tornis enrere.</li>
+
+            <li>No tanquis la pàgina.</li>
+
+            <li>Llegeix atentament totes les instruccions.</li>
+
+        </ul>
+
+        <button id="instructionsBtn">
+
+            Estic preparat/da
+
+        </button>
+
+    </section>
+
+
+
+    <!-- Presentación de palabras -->
+
+    <section id="wordsScreen" class="screen">
+
+        <div id="word">
+
+            Paraula
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Respuesta -->
+
+    <section id="recallScreen" class="screen">
+
+        <h2>Escriu totes les paraules que recordis</h2>
+
+        <textarea
+
+            id="recallInput"
+
+            rows="12"
+
+            placeholder="Escriu una paraula per línia">
+
+        </textarea>
+
+        <button id="submitRecall">
+
+            Continuar
+
+        </button>
+
+    </section>
+
+
+
+    <!-- Cuestionario -->
+
+    <section id="questionnaireScreen" class="screen">
+
+        <h2>Qüestionari</h2>
+
+        <div id="questionnaireContainer">
+
+        </div>
+
+        <button id="submitQuestionnaire">
+
+            Continuar
+
+        </button>
+
+    </section>
+
+
+
+    <!-- Memoria diferida -->
+
+    <section id="delayedScreen" class="screen">
+
+        <h2>Sense tornar a veure les paraules...</h2>
+
+        <p>
+
+            Escriu totes les paraules que recordis.
+
+        </p>
+
+        <textarea
+
+            id="delayedRecall"
+
+            rows="12"
+
+            placeholder="Escriu una paraula per línia">
+
+        </textarea>
+
+        <button id="finishBtn">
+
+            Finalitzar
+
+        </button>
+
+    </section>
+
+
+
+    <!-- Final -->
+
+    <section id="finishScreen" class="screen">
+
+        <h1>Moltes gràcies!</h1>
+
+        <p>
+
+            La teva participació ha estat registrada correctament.
+
+        </p>
+
+    </section>
+
+
+
+</div>
+
+</body>
+
+</html>
